@@ -13,7 +13,7 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-transparent">
+    <nav className="bg-transparent text-sm">
       <div className="flex flex-wrap items-center justify-between max-w-xl mx-auto p-4 md:p-8">
         <Link to="/" className="flex items-center no-underline font-serif">
           <span className="font-light font-serif text-sm tracking-very-wide px-3 py-2 border border-grey-dark text-grey-dark">
