@@ -35,21 +35,21 @@ const Header = () => {
           <div className="text-lg">
             <Link
               to="/"
-              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline font-serif text-grey-dark text-lg"
+              className="block mt-4 md:inline-block md:mt-0 mr-6 no-underline font-mono text-grey-dark text-lg"
             >
               Home
             </Link>
 
             <Link
               to="/about"
-              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline font-serif text-grey-dark text-lg"
+              className="block md:inline-block mt-4 md:mt-0 mr-6 no-underline font-mono text-grey-dark text-lg"
             >
               About
             </Link>
 
             <Link
               to="/contact"
-              className="block md:inline-block mt-4 md:mt-0 no-underline font-serif text-grey-dark text-lg"
+              className="block md:inline-block mt-4 md:mt-0 no-underline font-mono text-grey-dark text-lg"
             >
               Contact
             </Link>
