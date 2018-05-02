@@ -12,7 +12,7 @@ const IndexPage = () => (
     <br/>
     <br/>
     <br/>
-      <button className="border border-black text-black text-lg font-serif tracking-very-wide py-4 px-8 hover:bg-black hover:border-white hover:text-white"> <a href="https://www.dropbox.com/s/j9tobnyjoluuiu3/AT.pdf?dl=0" className="text-black no-underline hover:text-white" target="_blank">LOREM IPSUM</a></button>
+      <button className="border group border-black text-black text-lg font-serif tracking-very-wide py-4 px-8 hover:bg-black hover:border-white hover:text-white"> <a href="https://www.dropbox.com/s/j9tobnyjoluuiu3/AT.pdf?dl=0" className="text-black no-underline hover:text-white group-hover:text-white" target="_blank">LOREM IPSUM</a></button>
     </div>
     <div className="flex-1"></div>
   </div>
