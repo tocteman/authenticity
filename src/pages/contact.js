@@ -3,7 +3,7 @@ import Link from "gatsby-link";
 
 const ContactPage = () => (
   <div className="w-full bg-white">
-  <form className="mx-auto font-mono max-w-md mx-auto pb-16">
+  <form className="mx-auto font-mono max-w-md mx-auto px-8 pb-16">
     <p className="leading-loose font-serif mb-8 mt-32 text-3xl md:text-5xl">Cuéntanos
     </p>
 

@@ -16,7 +16,7 @@ const AboutPage = () => (
     <div className="px-8 md:px-16 mt-8 text-center self-center text-white font-light font-serif text-xl">
       <em><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ab!</p></em>
       <p className="text-5xl py-4"><FaGlass /></p>
-        <Link to="/donde-estas/"><button className="px-4 py-2 mt-4 border-grey-darkest border-2 hover:bg-grey-darkest font-mono text-sm tracking-wide">EMPECEMOS</button></Link>
+        <Link to="/donde-estas/"><button className="px-4 py-2 mt-4 border-grey-darkest border-2 hover:bg-grey-darkest font-mono text-sm tracking-wide text-white">EMPECEMOS</button></Link>
     </div>
   </div>
   </div>

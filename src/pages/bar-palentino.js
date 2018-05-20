@@ -15,7 +15,7 @@ const DondeEstas = ({data}) => (
       <div className="w-full md:w-1/2"><Img sizes={data.palentinoUno.sizes}/></div>
       <div className="w-full md:w-1/2 mx-auto flex flex-col mx-8 justify-center items-center">
         <div className="text-4xl md:text-4xl md:text-6xl uppercase font-serif py-4 md:py-8">Bar Palentino</div>
-        <div className="font-mono leading-normal max-w-xs md:max-w-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque veritatis dolores nisi minus porro magni nesciunt quasi consectetur architecto voluptatum distinctio, aut ea odit accusamus in animi ab! Nobis, omnis. <br/>
+        <div className="font-mono leading-normal max-w-xs md:max-w-sm px-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque veritatis dolores nisi minus porro magni nesciunt quasi consectetur architecto voluptatum distinctio, aut ea odit accusamus in animi ab! Nobis, omnis. <br/>
           <span className="pt-2"><strong>Lorem, ipsum dolor: </strong>Amet. Nesciunt. Distinctio? <br /></span>
         <strong>Sit amet consectetur: </strong>Nulla veritatis ab quaerat.</div>
       </div>
@@ -23,14 +23,14 @@ const DondeEstas = ({data}) => (
     </div>
 
     <div className="py-8 md-8 md:py-16 md:my-16 mx-auto text-center md:text-left">
-      <div className="mx-auto text-4xl md:text-6xl italic max-w-sm md:max-w-lg leading-tight">"Sed ipsum non arurem semper non feugiat aliquam lar tincidunt impsum"</div>
+      <div className="mx-auto text-4xl md:text-6xl italic max-w-sm md:max-w-lg leading-tight px-2">"Sed ipsum non arurem semper non feugiat aliquam lar tincidunt impsum"</div>
       <div className="font-mono">Sed Sapien Tortot</div>
     </div>
 
     <div><Img sizes={data.palentinoDos.sizes} /></div>
 
     <div className="py-8 md-8 md:py-16 md:my-16 mx-auto text-center md:text-left">
-      <div className="mx-auto text-4xl md:text-6xl italic max-w-lg leading-tight">"In sagittis magna et porta euismodinarum. Aliquam pulvinar tincidunt just nontu"</div>
+      <div className="mx-auto text-4xl md:text-6xl italic max-w-lg leading-tight px-2">"In sagittis magna et porta euismodinarum. Aliquam pulvinar tincidunt just nontu"</div>
       <div className="font-mono">Sed Sapien Tortot</div>
     </div>
 

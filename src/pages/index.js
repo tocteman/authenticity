@@ -4,7 +4,7 @@ import Link from "gatsby-link";
 const IndexPage = () => (
   <div className="flex flex-col items-center justify-center w-full bg-white">
     <div className="mx-auto text-center self-center items-center">
-    <p className="border border-black px-8 py-4 font-serif tracking-very-wide font-medium text-2xl md:text-3xl lg:text-5xl">AUTHENTICITY</p>
+    <p className="border border-black px-8 py-4 mx-4 font-serif tracking-very-wide font-medium text-2xl md:text-3xl lg:text-5xl">AUTHENTICITY</p>
     <p className="font-serif pt-4"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
     <br/>
     <br/>
