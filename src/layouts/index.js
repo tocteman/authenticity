@@ -14,6 +14,7 @@ const TemplateWrapper = ({ children }) => (
       title="Authenticity"
       meta={[
         { name: "description", content: "Sample" },
+        { name: 'viewport', content: 'width=device-width, maximum-scale=1' },
         { name: "keywords", content: "sample, something" }
       ]}
     />
