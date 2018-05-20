@@ -14,17 +14,17 @@ const ConQuienEstas = () => (
       </div>
       <div className="md:flex mx-auto my-4">
         <div className="md:w-1/2 flex flex-col">
-          <button className="border-white border-2 my-2 mr-8 px-4 py-3 font-mono text-white uppercase cursor-default bg-black w-64">Con mi hámster</button>
-          <Link to="/que-quieres-hacer/"><button className="border-white border-2 my-2 px-4 py-3 font-mono text-white uppercase hover:bg-grey-darkest bg-black w-64"><FaLongArrowRight />  Con mi suegra</button></Link>
-          <button className="border-white border-2 my-2 md:mr-8 px-4 py-3 font-mono text-white uppercase cursor-default bg-black w-64">Conmigo mismo</button>
+          <button className="mx-auto border-white border-2 my-2 md:mr-8 px-4 py-3 font-mono text-white uppercase cursor-default bg-black w-64">Con mi hámster</button>
+          <Link to="/que-quieres-hacer/" className="text-center"><button className="mx-auto border-white border-2 my-2 px-4 py-3 font-mono text-white uppercase md:mr-8 hover:bg-grey-darkest bg-black w-64"><FaLongArrowRight />  Con mi suegra</button></Link>
+          <button className="mx-auto border-white border-2 my-2 md:mr-8 px-4 py-3 font-mono text-white uppercase cursor-default bg-black w-64">Conmigo mismo</button>
         </div>
         <div className="md:w-1/2 flex flex-col">
-          <button className="border-white border-2 my-2 md:mr-8 px-4 py-3 font-mono text-white uppercase cursor-default bg-black w-64">Con mi pareja</button>
-          <button className="border-white border-2 my-2 md:mr-8 px-4 py-3 font-mono text-white uppercase cursor-default bg-black w-64">Con los amigos</button>
-          <button className="border-white border-2 my-2 md:mr-8 px-4 py-3 font-mono text-white uppercase cursor-default bg-black w-64">Con mi ligue de tinder</button>
+          <button className="mx-auto border-white border-2 my-2 md:mr-8 px-4 py-3 font-mono text-white uppercase cursor-default bg-black w-64">Con mi pareja</button>
+          <button className="mx-auto border-white border-2 my-2 md:mr-8 px-4 py-3 font-mono text-white uppercase cursor-default bg-black w-64">Con los amigos</button>
+          <button className="mx-auto border-white border-2 my-2 md:mr-8 px-4 py-3 font-mono text-white uppercase cursor-default bg-black w-64">Con mi ligue de tinder</button>
         </div>
         </div>
-      <div className="font-mono text-grey-dark"><Link to="/que-estas-haciendo-aqui/" className="no-underline text-grey-dark text-sm"> <FaLongArrowLeft />  Regresar</Link></div>
+      <div className="font-mono text-grey-dark mx-auto"><Link to="/que-estas-haciendo-aqui/" className="no-underline text-grey-dark text-sm"> <FaLongArrowLeft />  Regresar</Link></div>
       </div>
   </div>
 );

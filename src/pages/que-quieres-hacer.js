@@ -14,7 +14,7 @@ const QueQuieresHacer = () => (
         <button className="border-white border-2 my-2 md:mr-8 px-4 py-3 font-mono text-white uppercase cursor-default bg-black w-64 md:w-96">Quiero un sitio romántico</button>
         <button className="border-white border-2 my-2 md:mr-8 px-4 py-3 font-mono text-white uppercase cursor-default bg-black w-64 md:w-96">Recordar la comida de mi madre</button>
       </div>
-      <div className="font-mono text-grey-dark text-sm"><Link to="/con-quien-estas/" className="no-underline text-grey-dark text-center md:text-left"> <FaLongArrowLeft />  Regresar</Link></div>
+      <div className="font-mono text-grey-dark text-sm mx-auto"><Link to="/con-quien-estas/" className="no-underline text-grey-dark text-center md:text-left"> <FaLongArrowLeft />  Regresar</Link></div>
     </div>
   </div>
 );
