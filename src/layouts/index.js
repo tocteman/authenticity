@@ -18,7 +18,7 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <Header />
-    <div className="flex flex-1 md:justify-center min-h-full leading-normal w-full">      
+    <div className="flex flex-1 md:justify-center min-h-full leading-normal w-full bg-black font-serif">      
     {children()}
     </div>
     <Footer />

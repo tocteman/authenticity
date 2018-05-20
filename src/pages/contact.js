@@ -2,57 +2,51 @@ import React from "react";
 import Link from "gatsby-link";
 
 const ContactPage = () => (
-  <form className="mx-auto md:w-1/2 font-mono pb-16">
-    <p className="leading-loose mb-8">
-      Here is an example of a form built using Tailwind. Click{" "}
-      <a
-        href="https://tailwindcss.com/docs/examples/forms"
-        className="font-bold no-underline text-grey-darkest"
-      >
-        here
-      </a>{" "}
-      to see more examples.
+  <div className="w-full bg-white">
+  <form className="mx-auto font-mono max-w-md mx-auto pb-16">
+    <p className="leading-loose font-serif mb-8 mt-32 text-3xl md:text-5xl">Cuéntanos
     </p>
 
     <label
       className="block font-bold mb-2 text-xs uppercase"
       htmlFor="first-name"
     >
-      First Name
+      Nombre
     </label>
     <input
       className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
       id="first-name"
       type="text"
-      placeholder="Bill"
+      placeholder="Juana"
     />
 
     <label
       className="block font-bold mb-2 text-xs uppercase"
       htmlFor="last-name"
     >
-      Last Name
+      Apellido
     </label>
     <input
       className="appearance-none block bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
       id="last-name"
       type="text"
-      placeholder="Murray"
+      placeholder="de Arco"
     />
 
     <label className="block font-bold mb-2 text-xs uppercase" htmlFor="message">
-      Message
+      Mensaje
     </label>
     <textarea
       className="appearance-none bg-grey-lighter mb-6 p-3 rounded-md text-grey-darker w-full"
-      placeholder="Say something..."
+      placeholder="Estamos atentos..."
       rows="8"
     />
 
-    <button className="border-b-4 border-grey-darker hover:border-grey-dark bg-grey-dark hover:bg-grey font-bold px-6 py-3 rounded text-sm text-white">
-      Submit
+    <button className="bg-black hover:bg-grey-darkest px-6 py-3 uppercase text-sm text-white">
+      Enviar
     </button>
   </form>
+  </div>
 );
 
 export default ContactPage;

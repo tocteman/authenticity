@@ -1,20 +1,17 @@
 import React from "react";
 import Link from "gatsby-link";
-import Chilling from "../images/chilling.svg";
 
 const IndexPage = () => (
-  <div className="flex">
-    <div className="flex-1"></div>
-    <div className="flex-1 text-center self-center">
-    <p className="border border-black px-8 py-4 font-serif tracking-very-wide font-medium text-5xl">AUTHENTICITY</p>
+  <div className="flex flex-col items-center justify-center w-full bg-white">
+    <div className="mx-auto text-center self-center items-center">
+    <p className="border border-black px-8 py-4 font-serif tracking-very-wide font-medium text-2xl md:text-3xl lg:text-5xl">AUTHENTICITY</p>
     <p className="font-serif pt-4"><em>Lorem ipsum dolor sit amet consectetur.</em></p>
     <br/>
     <br/>
     <br/>
     <br/>
-      <button className="border group border-black text-black text-lg font-serif tracking-very-wide py-4 px-8 hover:bg-black hover:border-white hover:text-white"> <a href="https://www.dropbox.com/s/j9tobnyjoluuiu3/AT.pdf?dl=0" className="text-black no-underline hover:text-white group-hover:text-white" target="_blank">LOREM IPSUM</a></button>
+      <Link to="/donde-estas/" className="text-grey-darkest no-underline hover:text-grey-lightest group-hover:text-grey-lightest font-mono bg-black text-white text-sm"><button className="bg-black border group border-black text-white text-lg font-serif py-4 px-8 hover:bg-grey-darkest font-mono"> EMPECEMOS</button></Link>
     </div>
-    <div className="flex-1"></div>
   </div>
 );
 
