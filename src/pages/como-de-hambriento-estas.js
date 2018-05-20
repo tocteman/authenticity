@@ -17,7 +17,7 @@ const QueQuieresHacer = () => (
       <button className="mx-auto border-black border-2 my-2 md:mr-8 px-4 py-3 font-mono text-black uppercase cursor-default bg-white w-64">Mucho, soy vegetariana</button>
         <Link to="/como-vas-de-presupuesto/" className="text-center"><button className="mx-auto border-black border-2 my-2 md:mr-8 px-4 py-3 font-mono text-black uppercase hover:bg-grey-lighter bg-white w-64"><FaLongArrowRight/>  ¿Hay tapas gratis?</button></Link>
       <button className="mx-auto border-black border-2 my-2 md:mr-8 px-4 py-3 font-mono text-black uppercase cursor-default bg-white w-64">Hay hueco de algo</button>
-      <div className="font-mono text-grey-dark text-sm my-4"><Link to="/que-quieres-hacer/" className="no-underline text-grey-dark"> <FaLongArrowLeft />  Regresar</Link></div>
+      <div className="font-mono text-grey-dark text-sm my-4"><Link to="/que-quieres-hacer/" className="no-underline text-grey-dark text-center md:text-left"> <FaLongArrowLeft />  Regresar</Link></div>
       </div>
       
     </div>

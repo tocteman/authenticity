@@ -12,7 +12,7 @@ import Mapa from "../images/mapa.png"
 const DondeEstas = ({data}) => (
   <div className="md:flex flex-col w-full bg-white">
     <div className="md:flex justify-center">
-      <div className="w-full md:w-1/2"><Img sizes={data.palentinoUno.sizes} />/></div>
+      <div className="w-full md:w-1/2"><Img sizes={data.palentinoUno.sizes}/></div>
       <div className="w-full md:w-1/2 mx-auto flex flex-col mx-8 justify-center items-center">
         <div className="text-4xl md:text-4xl md:text-6xl uppercase font-serif py-4 md:py-8">Bar Palentino</div>
         <div className="font-mono leading-normal max-w-xs md:max-w-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque veritatis dolores nisi minus porro magni nesciunt quasi consectetur architecto voluptatum distinctio, aut ea odit accusamus in animi ab! Nobis, omnis. <br/>
